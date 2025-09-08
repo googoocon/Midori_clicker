@@ -4,6 +4,6 @@ Silly thing I made for fun. Click screen. spawn midoris. Repeat. Most of the cod
 
 Art and music @ Nexon. Music on/off icon by kawalanicon (https://www.flaticon.com/authors/kawalanicon).
 
-Link to page: https://googoocon.github.io/Midori-clicker/
+Link to page: https://googoocon.github.io/Midori_clicker/
 
 Original : https://zerofps-hk.github.io/koyuki-clicker/
