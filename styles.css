@@ -16,6 +16,8 @@ video.background-video {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+    transform: scale(0.9); /* 영상 크기 줄임 */
+    transform-origin: center center;
     z-index: -1;
 }
 
