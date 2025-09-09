@@ -2,17 +2,25 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    user-select: none; /* Prevents text and elements from being selected */
-    -webkit-touch-callout: none; /* Prevents callout, like the long-press menu */
-    -webkit-user-select: none; /* Prevents text selection on iOS */
-    -webkit-tap-highlight-color: transparent; /* Prevents the blue highlight on touch */
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    overflow: hidden;
+}
+
+video.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 body {
-    background: url('./img/Memorial_Lobby_Midori.jpg') center center repeat;
-    background-size: contain;
     cursor: pointer;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +30,7 @@ body {
     position: absolute;
     top: 10px;
     right: 10px;
-    z-index: 9999; /* Ensures the icon is on the top layer */
+    z-index: 9999;
 }
 
 #bgm-icon {
